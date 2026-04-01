@@ -29,6 +29,11 @@ header::first-letter {
   font-size: 40px;
 }
 
+.cards {
+  display: flex;
+  gap: 14px;
+}
+
 .title {
   font-size: 44px;
   margin-bottom: 32px;
