@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@400;600;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="forest-container">
+      <img src="./assets/jungle.jpg" id="jungle" />
+      <div>
+        <img src="./assets/monkey.png" class="monkey" id="monkey" />
+      </div>
+      <div>
+        <img src="./assets/clouds.png" class="clouds" id="clouds" />
+      </div>
+      <div>
+        <img src="./assets/rain.png" class="rain" id="rain" />
+      </div>
+      <div>
+        <img src="./assets/banana.png" class="banana" id="banana" />
+      </div>
+    </div>
+
+    <div>
+      <ol>
+        <li>
+          <button onclick="showMonkey()">Show Monkey</button>
+        </li>
+        <li>
+          <button onclick="hideMonkey()">Hide Monkey</button>
+        </li>
+        <li>Hover on cloud to make it rain!</li>
+        <li>Hover over banana to make it drop!</li>
+        <li>
+          <p>
+            Update border color
+            <select name="colors" id="colors">
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </p>
+          <button onclick="updateBorderColor()">update</button>
+        </li>
+      </ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forest-container {
+  position: relative;
+  max-width: 1000px;
+}
+
+.forest-container > img {
+  border: solid black 5px;
+  width: 1000px;
+}
+
+.monkey {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  z-index: 10;
+}
+
+.clouds {
+  position: absolute;
+  display: block;
+  top: 0px;
+  right: 400px;
+  width: 200px;
+  z-index: 100;
+}
+
+.rain {
+  position: absolute;
+  display: none;
+  top: 200px;
+  right: 400px;
+  width: 400px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.banana {
+  position: absolute;
+  display: block;
+  top: 100px;
+  right: 20px;
+  width: 100px;
+  z-index: 10;
+}
